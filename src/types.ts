@@ -115,7 +115,7 @@ export interface NiceAvatarProps extends AvatarConfig {
 }
 
 export type GenConfigFunc = (
-  config?: AvatarFullConfig
+  config?: AvatarFullConfig | string
 ) => Required<AvatarFullConfig>;
 
 export declare const genConfig: GenConfigFunc;
